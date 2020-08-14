@@ -9,6 +9,6 @@ let package = Package(
     ],
     targets: [
         .target(name: "SwiftSocket"),
-        .testTarget(name: "SwiftSocket", dependencies: ["SwiftSocket"])
+        .testTarget(name: "SwiftSocketTests", dependencies: ["SwiftSocket"])
     ]
 )
